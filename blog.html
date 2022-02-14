@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/styles/main.css">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title></title>
@@ -16,77 +16,35 @@
     <div class="content-background">
 
       <nav>
-        <ul>
+        <ul class="navbar">
           <li><a href="index.html">Home</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="githublink">GitHub</a></li>
+          <li><a href="https://github.com/Gabrielmr20/" target="_blank">GitHub</a></li>
         </ul>
       </nav>
-
       <div class="content">
-        <div class="centerbox">
-        <header>The difference between Margin, Border, and Padding </header>
+        <div>
+          <p><img class="blogimage" src="/images/html-css.png" alt="html and css logo next to each other"></p>
+          <p style="padding-top: 10px;"></p><b>What is the difference between Margin, Border, and Padding?</b></p>
+          <br>
+          <a href="/blog/html-css.html" class="button">View Blog</a>
         </div>
-        <br>
-        <p>
-        <b>Margin</b> is how much space is around an object.<br>
-        <br>
-        <b>Padding</b> is how much space is within an object side and its contents.<br>
-        <br>
-        <b>Border</b> is between the margin and padding of an object. Only counted when given an actual width otherwise, it’s
-        zero.<br>
-        <br>
-        The place where it all matters is defining <b>width</b>. Say you have two yellow shoe boxes that are 30cm wide and can
-        get as long as you need. No lid and you’re looking down into one of the boxes.<br>
-        <br>
-        The border is the box edge and is 2cm thick and red.<br>
-        <br>
-        Imagine the paper stuffing around the shoe is the padding and is 4cm thick and transparent (padding don’t have
-        color associated to it).<br>
-        <br>
-        The margin 4cm. This is the space between the boxes and also don’t have a color associated to it.<br>
-        <br>
-        <b>So here is some code exemple of how it works, on this code box is a .CSS class that willdefine the "box size":</b><br>
-        <br>
-        </p>
-
-<pre>
-<code>.shoe-box {
-  width: 300px;
-  height: auto;
-  background-color: yellow;
-  border: 20px solid red;
-  padding: 40px;
-  margin: 40px;
-  word-wrap: break-word;
-}
-</code>
-</pre>
-<p><b>Here is the HTML code:</b><br><br></p>
-<pre>
-<code>&lt;div class="shoe-box"&gt;
-  &lt;p&gt;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&lt;&sol;p&gt;
-&lt;&sol;div&gt;
-</code>
-</pre>
-    <div class="centerbox">
-        <div class="shoe-box">
-          <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+        <div style="clear: left;">
+          <p><img class="blogimage" src="/images/identity-values.png" alt="colored brain draw"></p>
+          <p style="padding-top: 10px;"></p><b>My values</b></p>
+          <br>
+          <br>
+          <a href="/blog/identity-values.html" class="button">View Blog</a>
         </div>
-        </div>
-
-<p><b>And here is what happens when more content is added on HTML section:</b></p>
-
-        <div class="centerbox">
-        <div class="shoe-box">
-          <p>
-            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-          </p>
+        <div style="clear: left;">
+          <p><img class="blogimage" src="/images/learning-plan.png" alt="stack of books"></p>
+          <p style="padding-top: 10px;"></p><b>My learning plan</b></p><br>
+          <br>
+          <a href="/blog/learning-plan.html" class="button">View Blog</a>
         </div>
       </div>
-
-      </div>
+      </nav>
     </div>
   </div>
   <script src="" async defer></script>
